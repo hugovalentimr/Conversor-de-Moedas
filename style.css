@@ -6,15 +6,17 @@
 }
 
 body {
-    background-color: #252525;
+    background-color: #000000;
     z-index: -1;
     opacity: 100%;
+
 }
 
 header{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50vw;
 }
 
 .moneyzinho {
@@ -24,14 +26,14 @@ header{
 
 .img-moneyzinho {
     width: 400px;
-    margin-left: 350px;
+    align-items: center;
 }
 
 main {
     width: 375px;
     background: #F2F3DB;
     border-radius: 20px;
-    margin: 0 auto 40px;
+    margin: 0 50vw 40px;
     padding: 44px 24px;
     position: relative;
 }
@@ -113,14 +115,17 @@ section {
     font-weight: 700;
     font-size: 20px;
 }
-
+/* 
 video{
     top: 0;
     z-index: -1;
-    
-    position: fixed;
+    position: absolute;
     opacity: 50%;
-}
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+} */
 
 @media screen and (max-width: 1080px){
 
